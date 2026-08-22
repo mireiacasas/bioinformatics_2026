@@ -1,4 +1,4 @@
-echo "SampleID,Coverage,Reads,GCcontent,Sex,Platform" > sequencing.csv
+echo "SampleID,Coverage,Reads,GCcontent,Sex,Platform" > sequencing-data.csv
 
 for i in {1..1000}
 do
@@ -16,5 +16,5 @@ do
         platform="Nanopore"
     fi
 
-    echo "S$i,$((RANDOM%40+10)),$((RANDOM*1000)),$gc,$sex,$platform" >> sequencing.csv
+    echo "S$i,$((RANDOM%40+10)),$((RANDOM*1000)),$gc,$sex,$platform" >> sequencing-data.csv
 done

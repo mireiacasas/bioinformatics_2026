@@ -1,0 +1,195 @@
+A Brief History of DNA Sequencing
+
+DNA sequencing is the process of determining the order of
+nucleotides in a DNA molecule. Since DNA contains the
+genetic information of all living organisms, sequencing
+technologies have profoundly transformed biological and
+biomedical research. Over the past fifty years, DNA
+sequencing has evolved from a slow and labor-intensive
+laboratory technique into a highly automated technology
+capable of generating vast amounts of genomic data in a
+matter of hours.
+
+The foundations of modern sequencing were established in
+the 1970s with the development of the chain-termination
+method by Frederick Sanger and colleagues. Sanger
+sequencing made it possible to determine DNA sequences
+with unprecedented accuracy and quickly became the
+standard method used in molecular biology laboratories.
+For more than two decades, Sanger sequencing was the
+workhorse of genomics and played a central role in many
+early genome projects.
+
+During the 1980s and 1990s, improvements in automation,
+fluorescent labeling, capillary electrophoresis, and
+robotic sample handling dramatically increased sequencing
+capacity. These technological advances enabled ambitious
+international efforts such as the Human Genome Project,
+which aimed to generate a reference sequence of the
+human genome. The project demonstrated both the power
+and the limitations of first-generation sequencing: while
+it produced a transformative scientific resource, it
+required years of work, large international collaborations,
+and enormous financial investments.
+
+A major technological revolution occurred in the mid-2000s
+with the emergence of next-generation sequencing (NGS).
+Unlike Sanger sequencing, which processes a relatively
+small number of DNA fragments at a time, NGS technologies
+perform massively parallel sequencing, generating millions
+or even billions of reads in a single experiment. This
+increase in throughput dramatically reduced sequencing
+costs while expanding the scale of biological studies.
+
+The introduction of NGS fundamentally changed the way
+researchers approached biology. Whole-genome sequencing,
+RNA sequencing, metagenomics, cancer genomics, and many
+other applications became accessible to a much larger
+scientific community. As sequencing became cheaper and
+faster, researchers shifted from studying individual genes
+to analyzing complete genomes, transcriptomes, and complex
+biological systems.
+
+Among the various NGS platforms developed over the years,
+Illumina became the dominant technology for both research
+and clinical applications. Illumina instruments generate
+large volumes of highly accurate short reads, typically
+between 100 and 300 base pairs in length. Short-read
+sequencing remains the foundation of many genomic studies
+because it combines excellent accuracy, high throughput,
+and relatively low cost.
+
+Today, short-read sequencing continues to support a wide
+range of applications. These include whole-genome
+sequencing, whole-exome sequencing, RNA-seq, microbiome
+analysis, population genetics, and clinical diagnostics.
+Many national and international sequencing initiatives
+still rely heavily on short-read technologies because
+they provide reliable data at a scale that is difficult
+to match.
+
+Despite their strengths, short reads have important
+limitations. Repetitive genomic regions, structural
+variants, highly duplicated sequences, and complex genome
+architectures can be difficult to resolve when sequencing
+reads are only a few hundred bases long. As a result,
+researchers increasingly turned toward technologies capable
+of generating much longer DNA reads.
+
+This need led to the rise of third-generation sequencing,
+also known as long-read sequencing. Two major platforms
+currently dominate this field: Pacific Biosciences
+(PacBio) and Oxford Nanopore Technologies (ONT).
+
+PacBio sequencing is based on Single Molecule Real-Time
+(SMRT) technology. Recent developments have produced
+PacBio HiFi reads, which combine long read lengths with
+very high accuracy. These reads are particularly useful
+for assembling complete genomes, identifying structural
+variants, resolving complex genomic regions, and studying
+genetic variation that may be difficult to detect using
+short-read sequencing alone.
+
+Oxford Nanopore Technologies uses a fundamentally
+different approach. Individual DNA molecules pass through
+nanometer-scale pores, and changes in electrical current
+are measured to infer the DNA sequence. Nanopore
+sequencing can generate extremely long reads, sometimes
+extending to hundreds of thousands or even millions of
+bases. The technology also offers compact portable devices
+that can be deployed outside traditional laboratory
+environments.
+
+Long-read sequencing has significantly expanded the range
+of biological questions that can be addressed. Researchers
+can now generate highly complete genome assemblies,
+analyze large structural variants, reconstruct haplotypes,
+study complex transcript isoforms, and investigate
+epigenetic modifications. Many genomic regions that were
+once considered inaccessible can now be characterized with
+much greater confidence.
+
+Modern genomics increasingly combines short-read and
+long-read sequencing in hybrid strategies. Short reads
+provide cost-effective and highly accurate data, while
+long reads deliver information about large-scale genome
+structure. Together they offer a more comprehensive view
+of biological systems than either technology alone.
+
+Another important development is the emergence of
+pangenomes. Traditionally, genomic analyses relied on a
+single reference genome. However, a single reference
+cannot adequately represent the genetic diversity of an
+entire species. Pangenome resources integrate genomic
+information from multiple individuals and populations,
+providing a richer and more representative framework for
+future genetic studies.
+
+At the same time, sequencing technologies have become a
+key component of precision and genomic medicine. Clinical
+applications now include the diagnosis of rare diseases,
+cancer characterization, pharmacogenomics, infectious
+disease surveillance, prenatal testing, and the
+identification of clinically relevant genetic variants.
+Sequencing is increasingly moving from specialized
+research laboratories into routine healthcare settings.
+
+The rapid growth of sequencing technologies has also
+created major computational challenges. Modern projects
+often generate terabytes of data that must be stored,
+processed, analyzed, and shared. As a result,
+bioinformatics has become an essential component of
+genomics. Reproducible computational workflows, data
+management, FAIR principles, cloud computing, and
+high-performance computing are now central aspects of
+large-scale biological research.
+
+Current trends suggest that sequencing technologies will
+continue to increase in speed, accuracy, and accessibility.
+Future developments are likely to involve deeper
+integration of genomics with transcriptomics, proteomics,
+epigenomics, single-cell technologies, artificial
+intelligence, and advanced computational methods. The
+combination of improved sequencing technologies and modern
+bioinformatics is creating new opportunities to understand
+biological systems and to translate genomic discoveries
+into medical and societal benefits.
+
+In summary, DNA sequencing has evolved from a specialized
+laboratory technique into a core technology of modern
+science. While short-read sequencing remains the backbone
+of many genomic applications, long-read sequencing,
+pangenome resources, and genomic medicine are shaping the
+current frontier of the field. Today, progress in biology
+depends not only on generating data but also on the
+ability to manage, analyze, interpret, and share that
+information effectively.
+
+References
+
+Mardis, E.R., & Wilson, R.K. (2025).
+Tracing the evolution of sequencing into the era of genomic medicine.
+Nature Reviews Genetics.
+
+Olivucci, G., Iovino, E., Innella, G., Turchetti, D.,
+Pippucci, T., & Magini, P. (2024).
+Long read sequencing on its way to the routine diagnostics
+of genetic diseases.
+Frontiers in Genetics, 15, 1374860.
+https://doi.org/10.3389/fgene.2024.1374860
+
+Peng, R.D. (2011).
+Reproducible Research in Computational Science.
+Science, 334(6060), 1226-1227.
+https://doi.org/10.1126/science.1213847
+
+Shendure, J., Balasubramanian, S., Church, G.M., Gilbert, W.,
+Rogers, J., Schloss, J.A., & Waterston, R.H. (2017).
+DNA sequencing at 40: past, present and future.
+Nature, 550, 345-353.
+https://doi.org/10.1038/nature24286
+
+Wilkinson, M.D., Dumontier, M., Aalbersberg, I.J.J., et al. (2016).
+The FAIR Guiding Principles for Scientific Data Management and Stewardship.
+Scientific Data, 3, 160018.
+https://doi.org/10.1038/sdata.2016.18
